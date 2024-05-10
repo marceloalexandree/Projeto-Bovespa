@@ -1,0 +1,35 @@
+main{
+    min-height: 109vh;
+    background-color: var(--Off-white);
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Royal-B2);
+    position: fixed;
+    border-radius: 7px;
+    padding: 1.25rem;
+    gap: 1rem;
+    margin-top: 7rem;
+    right: 2.5rem;
+}
+
+nav img{
+    background-color: var(--White);
+    width: 6rem;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+nav img:hover{
+    background-color: var(--Blue);
+    transition: .5s;
+}
+
+.ativo{
+    background-color: var(--Blue);
+}

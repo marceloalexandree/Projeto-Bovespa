@@ -1,7 +1,34 @@
-main{
-    min-height: 109vh;
-    background-color: var(--Off-white);
-    background-attachment: fixed;
+body{
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+#logo{
+    width: 6.5rem;
+    position: absolute;
+    top: .5rem;
+    left: 7.5rem;
+}
+
+#logo:hover{
+    cursor: cell;
+    animation-duration: 2s;
+    animation-name: balanco;
+    animation-iteration-count: infinite;
+}
+
+@keyframes balanco{
+    33%{
+        transform: rotate(30deg);
+    }
+    66%{
+        transform: rotate(-25deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
 }
 
 nav{
@@ -32,4 +59,52 @@ nav img:hover{
 
 .ativo{
     background-color: var(--Blue);
+}
+
+main{
+    width: 95rem;
+    background: var(--White);
+    margin-left: 7rem;
+    margin-top: 7.5rem;
+    padding-block: 4.5rem;
+    padding-inline: 5rem;
+    border-radius: 35px;
+    margin-bottom: 5rem;
+}
+
+ul{
+    list-style: inside;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    color: var(--Royal-B2);
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    color: var(--Royal-B2);
+    font-size: 3.125rem;
+    margin-block: 1.75rem;
+}
+
+h3{
+    font-family: "Roboto Mono", monospace;
+    color: var(--Royal-B2);
+    font-size: 1.9rem;
+}
+
+p, li{
+    font-family: "Overpass Mono", monospace;
+    color: var(--Royal-B2);
+    font-size: 1.5rem;
+    margin-block: 2rem;
+    margin-right: 6rem;
+}
+
+main img{
+    width: 46rem;
 }

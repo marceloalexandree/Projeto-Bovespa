@@ -76,6 +76,9 @@
     .rodar{
         transform: rotate(90deg);
     }
+    #logo{
+        left: 5.5rem;
+    }
 }
 
 @media (min-width: 831px ) and (max-width: 1100px){

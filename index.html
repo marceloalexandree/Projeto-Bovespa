@@ -4,18 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
     <link rel="shortcut icon" href="./images/bovespa_logo.png" type="image/x-icon">
     <title>BOVESPA</title>
 </head>
 <body>
     <img id="logo" src="./images/principal_logo.png" alt="Logo do site">
     <nav>
-        <a href=""><img class="ativo" src="./images/bovespa(ativo).png" alt=""></a>
-        <a href=""><img src="./images/commodities_logo.png" alt=""></a>
-        <a href=""><img src="./images/fechamento_logo.png" alt=""></a>
-        <a href=""><img src="./images/investidores_logo.png" alt=""></a>
-        <a href=""><img src="./images/moedas_logo.png" alt=""></a>
+        <div class="ancoras">
+            <a href="./index.html"><img class="ativo" src="./images/bovespa(ativo).png" alt=""></a>
+            <a href="./pages/commodities.html"><img src="./images/commodities_logo.png" alt=""></a>
+            <a href="./pages/fechamento.html"><img src="./images/fechamento_logo.png" alt=""></a>
+            <a href="./pages/investidores.html"><img src="./images/investidores_logo.png" alt=""></a>
+            <a href="./pages/moedas.html"><img src="./images/moedas_logo.png" alt=""></a>
+        </div>
+
+        <div class="icone-mobile">
+            <button onclick="show()"><img id="icone" src="./images/menu.png" alt=""></button>
+        </div>
     </nav>
+
+    <div class="mobile">
+        <a href="./index.html"><img src="./images/bovespa(ativo).png" alt=""> Bovespa</a>
+        <a href="./pages/commodities.html"><img src="./images/commodities(ativo).png" alt="">Commodities</a>
+        <a href="./pages/fechamento.html"><img src="./images/fechamento(ativo).png" alt="">Fechamento</a>
+        <a href="./pages/investidores.html"><img src="./images/investidores(ativo).png" alt="">Investidores</a>            
+        <a href="./pages/moedas.html"><img src="./images/moedas(ativo).png" alt="">Moedas</a>
+    </div>
+
     <main>
         <section>
             <h1>O que é Bovespa?</h1>

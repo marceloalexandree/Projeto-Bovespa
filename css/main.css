@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(60deg, #001B55, #001B74, #001B90, #0063DE, #706AF9, #6FA3DC);
+    background-image: linear-gradient(60deg, #001B55, #001B74, #001B90, #0063DE, #6FA3DC, #6FA3DC);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -67,6 +67,10 @@ nav div .ativo{
 #ativo{
     background-color: var(--Blue);
     padding-block: 1rem;
+}
+
+.aativo{
+    border: ;
 }
 
 main{

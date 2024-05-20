@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(60deg, #001B55, #001B74, #001B90, #0063DE, #6FA3DC, #6FA3DC);
+    min-height: 100vh;
+}
+
+#criadores h1{
+    color: #ffffff;
+    text-align: center;
+    padding-block: 8rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+#criadores section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+#criadores section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#criadores section div img{
+    width: 24rem;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    filter: brightness(80%);
+}
+
+#criadores section div img:hover{
+    filter: brightness(100%);
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+#criadores section div a{
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none;
+}
+
+#criadores section div a:hover{
+    text-decoration: underline;
+}
+
+#voltar{
+    position: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 4.5rem;
+    font-family: "Roboto";
+    font-weight: bold;
+    top: 2rem;
+    left: 4rem;
+}
+
+@media (max-width: 768px) {
+    #criadores section{
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1200px) {
+    #criadores section{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }
+    body{
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 1600px){
+    *{
+        font-size: 11px;
+    }
+}

@@ -36,7 +36,7 @@ nav{
     position: fixed;
     border-radius: 7px;
     padding: 1.25rem;
-    top: 8.5rem;
+    margin-top: 4rem;
     right: 2.5rem;
 }
 
@@ -70,7 +70,7 @@ nav div .ativo{
 }
 
 main{
-    max-width: 95rem;
+    width: 95rem;
     background: var(--White);
     margin-left: 7rem;
     margin-top: 7.5rem;
@@ -123,4 +123,5 @@ nav .icone-mobile, .mobile{
 
 #fecha{
     padding-block: 1rem;
+    padding-inline: .5rem;
 }

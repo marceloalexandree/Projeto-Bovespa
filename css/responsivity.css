@@ -113,6 +113,9 @@
         width: 5rem;
         top: 1.5rem;
     }
+    .petrobras, .vale, .itau{
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 420px){

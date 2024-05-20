@@ -83,6 +83,8 @@ main{
 
 ul{
     list-style: inside;
+    list-style-position:outside;
+    margin-left: 1rem;
 }
 
 h1{
@@ -148,4 +150,23 @@ footer a{
     padding: 1rem;
     border: solid 2px var(--White);
     border-radius: 25px;
+}
+
+.petrobras, .vale, .itau{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.petrobras, .vale{
+    margin-bottom: 5rem;
+}
+
+.petrobras p, .vale p, .itau p{
+    margin-block: .5rem;
+}
+
+.petrobras img, .vale img, .itau img{
+    max-width: 7rem;
+    max-height: 7rem;
 }

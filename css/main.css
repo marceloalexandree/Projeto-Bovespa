@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/Background.png);
+    background-image: linear-gradient(60deg, #001B55, #001B74, #001B90, #0063DE, #706AF9, #6FA3DC);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;

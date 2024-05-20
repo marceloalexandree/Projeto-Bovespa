@@ -60,17 +60,13 @@ nav .ancoras img:hover{
     transition: .5s;
 }
 
-nav div .ativo{
+nav div .ativo, .mobile .ativo{
     background-color: var(--Blue);
 }
 
 #ativo{
     background-color: var(--Blue);
     padding-block: 1rem;
-}
-
-.aativo{
-    border: ;
 }
 
 main{
@@ -128,4 +124,7 @@ nav .icone-mobile, .mobile{
 #fecha{
     padding-block: 1rem;
     padding-inline: .5rem;
+}
+.mobile #mento{
+    padding-block: .75rem;
 }
